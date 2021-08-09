@@ -28,3 +28,7 @@
     font-weight: 600;
     text-shadow: 0 0 1rem 1rem white !important;
 }
+
+.navbar-brand-image {
+    width: 10%;
+}

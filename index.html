@@ -19,31 +19,36 @@
 <body class="bg-black">
 
     <!-- ******************************************************************************************************************** -->
+    <div class="container-fluid">
 
-    <nav class="container-fluid navbar navbar-expand-lg navbar-black bg-black ml-2 pt-2">
+        <nav class="navbar navbar-expand-lg navbar-black bg-black ml-2 pt-2">
 
-        <a class="navbar-brand text-white ml-2 font-smallcaps" href="#">SuperCars</a>
+            <a class="navbar-brand text-white ml-2 font-smallcaps ps-5 pt-3" href="#">
+                <img src="assets/img/supercar3.png" class="navbar-brand-image" alt="Logo">
+                <p class="text-left align-sel-center">SuperCars</p>
+            </a>
 
-        <button class="navbar-toggler bg-white" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent flex-end">
-            <ul class="navbar-nav m-auto">
-                <li class="nav-item active pt-10">
-                    <a class="nav-link rounded" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rounded" href="#image-gallery">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rounded" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent flex-end">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active pt-10">
+                        <a class="nav-link rounded" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="#image-gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <!-- ******************************************************************************************************************** -->
 
@@ -57,7 +62,7 @@
                 a <a href=" assets/video/Gemera_Hotspot_anim_1080p.mp4">link to the video</a> instead.</p>
         </video>
 
-        <h1 class="text-uppercase">... Your new Car!</h1>
+        <h1 class="text-uppercase pb-5">... Your new Car!</h1>
     </div>
 
     <!-- ******************************************************************************************************************** -->
@@ -65,57 +70,256 @@
     <div id="image-gallery" class="container-fluid carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner text-center">
             <div class="carousel-item active">
-                <figure class="figure">
-                    <img src="assets/img/koenigsegg-gemera.jpg" class="figure-img img-fluid" alt="...">
-                    <figcaption class="figure-caption">
-                        Koenigsegg Gemera
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="carousel-item">
-                <figure class="figure">
-                    <img src="assets/img/koenigsegg-agera-1.jpg" class="figure-img img-fluid" alt="...">
-                    <figcaption class="figure-caption">
-                        Koenigsegg Agera-1
-                    </figcaption>
-            </div>
-            <div class="carousel-item">
-                <figure class="figure">
-                    <img src="assets/img/rimac-nevera.jpg" class="figure-img img-fluid" alt="...">
-                    <figcaption class="figure-caption">
-                        Rimac Nevera
-                        Power: 1.914 hp (1.4 MW)
-                        TORQUE: 2.360 nm
-                        Acceleration
-                        0-100 km/h: 1.97 sec
-                        0-300 km/h: 9.3 sec
-                        402 meter time: 8.6 sec
-                        Top speed: 412 km/h
-                        Battery Capacity: 120 kWh
-                        Price: $2,000,000
+                <div class="card">
+                    <img src="assets/img/koenigsegg-gemera.jpg" class="card-img" alt="Koenigsegg Gemera">
+                    <div class="card-img-overlay text-white d-flex justify-content-center align-items-end">
+                        <table class="table table-dark opacity-50">
+                            <thead>
+                                <tr>
+                                    <th colspan="8" scope="col" class="col-span">
+                                        <p class="h1">Koenigsegg Gemera</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="col">Power</th>
+                                    <th rowspan="2" scope="col">Torque</th>
+                                    <th rowspan="1" colspan="3" scope="col">Acceleration</th>
+                                    <th rowspan="2" scope="col">Top speed</th>
+                                    <th rowspan="2" scope="col">Battery Capacity</th>
+                                    <th rowspan="2" scope="col">Price</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">0-100 km/h</th>
+                                    <th scope="col">0-300 km/h</th>
+                                    <th scope="col">402 meter time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1700 hp (1.25 MW)</td>
+                                    <td>3,500 nm</td>
+                                    <td>1.9 sec</td>
+                                    <td>???</td>
+                                    <td>???</td>
+                                    <td>400 km/h</td>
+                                    <td>10 kWh</td>
+                                    <td>Price on Request</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
-                    </figcaption>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
-                <figure class="figure">
-                    <img src="assets/img/ferrari-458.jpg" class="figure-img img-fluid" alt="...">
-                    <figcaption class="figure-caption">
-                        Ferrari 458
-                    </figcaption>
+                <div class="card">
+                    <img src="assets/img/koenigsegg-agera-1.jpg" class="card-img" alt="Koenigsegg Agera One:1">
+                    <div class="card-img-overlay text-white d-flex justify-content-center align-items-end">
+
+                        <table class="table table-dark opacity-50">
+                            <thead>
+                                <tr>
+                                    <th colspan="8" scope="col" class="col-span">
+                                        <p class="h1">Koenigsegg Agera One:1</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="col">Power</th>
+                                    <th rowspan="2" scope="col">Torque</th>
+                                    <th rowspan="1" colspan="3" scope="col">Acceleration</th>
+                                    <th rowspan="2" scope="col">Top speed</th>
+                                    <th rowspan="2" scope="col">Battery Capacity</th>
+                                    <th rowspan="2" scope="col">Price</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">0-100 km/h</th>
+                                    <th scope="col">0-300 km/h</th>
+                                    <th scope="col">402 meter time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1360 hp(1.006 MW)</td>
+                                    <td>1371 nm</td>
+                                    <td>1.9 sec</td>
+                                    <td>11.9 sec</td>
+                                    <td>9.8 sec</td>
+                                    <td>400 km/h</td>
+                                    <td>n/a</td>
+                                    <td>$ 7,200,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img src="assets/img/rimac-nevera.jpg" class="card-img" alt="Rimac Nevera (Concept Two)">
+                    <div class="card-img-overlay text-white d-flex justify-content-center align-items-end" flex-column>
+                        <table class="table table-dark opacity-50">
+                            <thead>
+                                <tr>
+                                    <th colspan="8" scope="col" class="col-span">
+                                        <p class="h1">Rimac Nevera (Concept Two)</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="col">Power</th>
+                                    <th rowspan="2" scope="col">Torque</th>
+                                    <th rowspan="1" colspan="3" scope="col">Acceleration</th>
+                                    <th rowspan="2" scope="col">Top speed</th>
+                                    <th rowspan="2" scope="col">Battery Capacity</th>
+                                    <th rowspan="2" scope="col">Price</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">0-100 km/h</th>
+                                    <th scope="col">0-300 km/h</th>
+                                    <th scope="col">402 meter time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1.914 hp (1.4 MW)</td>
+                                    <td>2,360 nm</td>
+                                    <td>1.97 sec</td>
+                                    <td>9.3 sec</td>
+                                    <td>8.6 sec</td>
+                                    <td>412 km/h</td>
+                                    <td>120 kWh</td>
+                                    <td>$ 2,000,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
             <div class="carousel-item">
-                <figure class="figure">
-                    <img src="assets/img/lambo-aventador.jpg" class="figure-img img-fluid" alt="...">
-                    <figcaption class="figure-caption">
-                        Lamborghini Aventador
-                    </figcaption>
+                <div class="card">
+                    <img src="assets/img/ferrari-458.jpg" class="card-img" alt="Ferrari 458 Italia">
+                    <div class="card-img-overlay text-white d-flex justify-content-center align-items-end">
+                        <table class="table table-dark opacity-50">
+                            <thead>
+                                <tr>
+                                    <th colspan="8" scope="col" class="col-span">
+                                        <p class="h1">Ferrari 458 Italia</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="col">Power</th>
+                                    <th rowspan="2" scope="col">Torque</th>
+                                    <th rowspan="1" colspan="3" scope="col">Acceleration</th>
+                                    <th rowspan="2" scope="col">Top speed</th>
+                                    <th rowspan="2" scope="col">Battery Capacity</th>
+                                    <th rowspan="2" scope="col">Price</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">0-100 km/h</th>
+                                    <th scope="col">0-300 km/h</th>
+                                    <th scope="col">402 meter time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>570 hp (419 KW)</td>
+                                    <td>560 nm</td>
+                                    <td>3.0 sec</td>
+                                    <td>32.9 sec</td>
+                                    <td>11.0 sec</td>
+                                    <td>325 km/h</td>
+                                    <td>n/a</td>
+                                    <td>$ 235,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
+
             <div class="carousel-item">
-                <figure class="figure">
-                    <img src="assets/img/bugatti-chiron.jpg" class="figure-img img-fluid" alt="...">
-                    <figcaption class="figure-caption">
-                        Bugatti Chiron
-                    </figcaption>
+                <div class="card">
+                    <img src="assets/img/lambo-aventador.jpg" class="card-img" alt="Lamborghini Aventador SVJ">
+                    <div class="card-img-overlay text-white d-flex justify-content-center align-items-end">
+                        <table class="table table-dark opacity-50">
+                            <thead>
+                                <tr>
+                                    <th colspan="8" scope="col" class="col-span">
+                                        <p class="h1">Lamborghini Aventador SVJ</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="col">Power</th>
+                                    <th rowspan="2" scope="col">Torque</th>
+                                    <th rowspan="1" colspan="3" scope="col">Acceleration</th>
+                                    <th rowspan="2" scope="col">Top speed</th>
+                                    <th rowspan="2" scope="col">Battery Capacity</th>
+                                    <th rowspan="2" scope="col">Price</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">0-100 km/h</th>
+                                    <th scope="col">0-300 km/h</th>
+                                    <th scope="col">402 meter time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>770 hp (566 KW)</td>
+                                    <td>720 nm</td>
+                                    <td>2.9 sec</td>
+                                    <td>24.0 sec</td>
+                                    <td>10.8 sec</td>
+                                    <td>354 km/h</td>
+                                    <td>n/a</td>
+                                    <td>$ 451,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img src="assets/img/bugatti-chiron.jpg" class="card-img" alt="Bugatti Chiron Sport">
+                    <div class="card-img-overlay text-white d-flex justify-content-center align-items-end">
+                        <table class="table table-dark opacity-50">
+                            <thead>
+                                <tr>
+                                    <th colspan="8" scope="col" class="col-span">
+                                        <p class="h1">Bugatti Chiron Sport</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="col">Power</th>
+                                    <th rowspan="2" scope="col">Torque</th>
+                                    <th rowspan="1" colspan="3" scope="col">Acceleration</th>
+                                    <th rowspan="2" scope="col">Top speed</th>
+                                    <th rowspan="2" scope="col">Battery Capacity</th>
+                                    <th rowspan="2" scope="col">Price</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">0-100 km/h</th>
+                                    <th scope="col">0-300 km/h</th>
+                                    <th scope="col">402 meter time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1500 hp (1.1 MW)</td>
+                                    <td>720 nm</td>
+                                    <td>2.4 sec</td>
+                                    <td>13.1 sec</td>
+                                    <td>9.6 sec</td>
+                                    <td>420 km/h</td>
+                                    <td>n/a</td>
+                                    <td>$ 4,100,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
 
             <!-- /carousel-inner -->
