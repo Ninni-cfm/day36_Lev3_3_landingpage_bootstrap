@@ -1,4 +1,4 @@
-# day39_Lev3_3_landingpage_bootstrap
+# day36_Lev3_3_landingpage_bootstrap
 
 **Aufgabenstellung:**
 
@@ -8,11 +8,18 @@ Du kannst dir <a href="https://getbootstrap.com/docs/5.0/getting-started/introdu
 
 Such dir eines der folgenden Themen aus und schreibe dazu eine Seite, die das Unternehmen vorstellt. Verwende dafür auch gerne eine Bildergalerie.
 
-<ul>
-<li>Café/Restaurant</li>
-<li>Fitnessstudio/Yoga Studio</li>
-<li>Club/Disko</li>
-<li>fiktive oder bestehende Band/Musiker\*In</li>
-<li>Tierheim</li>
-<li>Reiseanbieter</li>
-<ul>
+-   Café/Restaurant
+-   Fitnessstudio/Yoga Studio
+-   Club/Disko
+-   fiktive oder bestehende Band/Musiker\*In
+-   Tierheim
+-   Reiseanbieter
+
+<br>
+<div>
+
+_Source:_ https://github.com/Ninni-cfm/day36_Lev3_3_landingpage_bootstrap
+
+_Demo:_ https://ninni-cfm.github.io/day36_Lev3_3_landingpage_bootstrap/
+
+</div>

@@ -1,0 +1,26 @@
+/* * {
+    margin: 0 !important;
+    padding: 0;
+}
+ */
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+.full-height {
+    min-height: 100vh;
+}
+
+.nav-link,
+.nav-link:visited {
+    color: silver;
+    margin-left: 3rem !important;
+}
+
+.nav-link:hover {
+    color: white;
+    border-radius: 3rem;
+    font-weight: 600;
+    text-shadow: 0 0 1rem 1rem white !important;
+}
