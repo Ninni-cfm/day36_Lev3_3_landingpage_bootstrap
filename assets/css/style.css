@@ -12,6 +12,10 @@
     min-height: 100vh;
 }
 
+.font-smallcaps {
+    font-variant: small-caps;
+}
+
 .nav-link,
 .nav-link:visited {
     color: silver;
